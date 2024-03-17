@@ -1,17 +1,23 @@
 nav{
     border: 2px;
     border-style: solid;
-    width: 75%;
 }
-
 
 header{
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%
 }
 
 footer{
     border: 2px;
     border-style: solid;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%
+
 }
 /*
 everything in the header needs to be centered

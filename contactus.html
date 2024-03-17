@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="stylesheet.css" rel="stylesheet">
+  <title>Contact Us</title>
+</head>
+<body>
+  <header>
+    <h1>Learning Hub</h1>
+    <div>
+      <img src="images/bannerImage (1).jpg" width="100%">
+    </div>
+    <div id="navbar">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="courses.html">Courses</a>
+        <a href="contactus.html">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section>
+      <h2>Get In Touch</h2>
+      <form action="https://wp.zybooks.com/form-viewer.php" method="post" id="getInTouchForm">
+        <fieldset>
+          <legend>Send Us An Email</legend>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" value="none">
+          </div>
+          <div>
+            <label for="email">Email ID</label>
+            <input type="text" name="email" id="email" value="none">
+          </div>
+          <div id="radioButtons">
+            <label for="radioButtons">Course</label>
+            <input type="radio" name="course" id="OSINT" value="OSINT">
+            <label for="OSINT">OSINT</label>
+            <input type="radio" name="course" id="darkWeb" value="The Dark Web">
+            <label for="darkWeb">The Dark Web</label>
+          </div>
+          <div>
+            <label for="courseDate">When did you take the course?</label>
+            <input type="date" name="courseDate" id="courseDate" value="none">
+          </div>
+          <div>
+            <label for="about">About</label>
+            <textarea name="about" id="about"></textarea>
+          </div>
+          <div>
+            <input type="submit" value="Send a Message">
+          </div>
+        </fieldset>
+      </form>
+    </section>
+    <section>
+      <h2>Our Address</h2>
+      <p>6001 Dodge St, Omaha, NE 68182, United States</p>
+      <p>Call: 402-531-3006</p>
+      <p>Email: LearningHub@gmail.com</p>
+    </section>
+  </main>
+  <footer>
+    <div>
+      <p>
+        &#169; Peter Plozay
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
