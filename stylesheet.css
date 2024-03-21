@@ -19,6 +19,14 @@ footer{
     width: 98%
 
 }
+
+#courseColumn{
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 10px;
+    margin-right: 10px; 
+}
 /*
 everything in the header needs to be centered
 everything in footer needs to be centered
